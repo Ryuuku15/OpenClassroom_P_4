@@ -1,0 +1,32 @@
+/***General Styles***/
+* {
+  font-family: 'roboto', sans-serif;
+}
+
+:root {
+  --main-color: #9356DC;
+  --main-color-secondairy: #FF79DA;
+  --main-color-thirdairy: #99E2D0;
+}
+
+@media (max-width: 767.98px) {
+  .center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-position {
+    background-color: lightgrey;
+    border-bottom: black solid 2px;
+    border-top: black solid 2px;
+  }
+  .menu-nav {
+    flex-direction: column;
+  }
+  .btn {
+    background-color: #FF79DA;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+  }
+}
